@@ -3,18 +3,16 @@ package FactoryMethodPattern;
 import FactoryMethodPattern.F16Factory.F16;
 import FactoryMethodPattern.F16Factory.F16A;
 import FactoryMethodPattern.F16Factory.F16B;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * This is a test class for F16.
+ * This is a main class for F16.
  */
 public class Client {
 
-    @Test
-    public void main() {
+    public static void main(String[] args) {
         Collection<F16> myAirForce = new ArrayList<>();
         F16 f16A = new F16A();
         F16 f16B = new F16B();
